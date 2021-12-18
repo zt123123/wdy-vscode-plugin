@@ -1,0 +1,20 @@
+{
+  "WDY_GOODS_SELECTOR": {
+    "prefix": [
+      "gs",
+      "cs",
+      "goods",
+      "cate",
+      "goodsSelector",
+      "cateSelector"
+    ],
+    "body": [
+      "<SelectorGoods",
+      "\t:itemIds='model.itemIds'",
+      "\t:cateId='model.cateId'",
+      "\t:options='options'",
+      "\t@onChange='onChange'/>"
+    ],
+    "description": "商品分类选择器"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "WDY_GET_ITEM": {
+    "prefix": [
+      "gi",
+      "ri",
+      "item",
+      "wdItem"
+    ],
+    "body": [
+      "WDYAPI.requestItemsByItemIds([${1:123}]).then((result) => {",
+      "\tconst [itemList] = result",
+      "\tconsole.log(itemList)",
+      "\t$2",
+      "})"
+    ],
+    "description": "传入商品ID查询商品数据"
+  }
+}
