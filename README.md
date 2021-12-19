@@ -2,15 +2,17 @@
 
 > toolbox for develop wdy custom component
 
-## Usage
-- press `Ctrl` + `Shift` + `P` to active vscode panel and select a command
+## 🛠 Usage
+- press `⌘(command/ctrl)` + `⇧(shift)` + `P` to active vscode panel and select a command
 - right click the project of root dir & choose a command
 
-## Features
-- Create Project ❌
-- Create Component ✅
+## 📦 Features
+- 🚀 Create Project 💻
+- 🎉 Create Component 💻
+- 🧰 Inside Snippets ✅
+- 📚 Develop Document ✅
 
-## TODO
-- Preview Component
+## 🕒 TODO
+-  Preview Component 🤔
 
 

@@ -26,7 +26,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:wdy-vscode-plugin.createProject"
+		"workspaceContains:package.json"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -72,6 +72,14 @@
 			{
 				"command": "wdy-vscode-plugin.createComponent",
 				"title": "Create Component"
+			},
+			{
+				"command": "wdy-vscode-plugin.openWebviewDoc",
+				"title": "Open Document",
+				"icon": {
+					"light": "./src/images/icon-dark.png",
+					"dark": "./src/images/icon-light.png"
+				}
 			}
 		],
 		"menus": {
@@ -85,6 +93,13 @@
 					"command": "wdy-vscode-plugin.createComponent",
 					"group": "navigation@2",
 					"when": "explorerResourceIsFolder"
+				}
+			],
+			"editor/title": [
+				{
+					"when": "true",
+					"command": "wdy-vscode-plugin.openWebviewDoc",
+					"group": "navigation"
 				}
 			]
 		}
