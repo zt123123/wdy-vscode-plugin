@@ -2,7 +2,7 @@
 	"name": "wdy-vscode-plugin",
 	"displayName": "wdy-vscode-plugin",
 	"description": "toolbox for develop wdy custom component",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"keywords": [
 		"vscode extension",
 		"vscode plugin",
