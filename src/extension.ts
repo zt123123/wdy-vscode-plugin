@@ -5,7 +5,13 @@ import {
   openWebviewDocCommand,
 } from "./commands";
 
+import ComponentListProvider from "./providers/ComponentListProvider";
+
 export function activate(context: vscode.ExtensionContext) {
+  vscode.window.registerTreeDataProvider(
+    "",
+    new ComponentListProvider(vscode.workspace.rootPath)
+  );
   context.subscriptions.push(
     createProjectCommand(context),
     createComponentCommand(context),

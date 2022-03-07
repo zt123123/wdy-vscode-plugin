@@ -64,6 +64,27 @@
 				"path": "./src/snippets/api.json"
 			}
 		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "componentList",
+					"title": "组件管理",
+					"icon": "./src/images/nav-icon.png"
+				}
+			]
+		},
+		"views": {
+			"componentList": [
+				{
+					"id": "unregistered",
+					"name": "未注册组件"
+				},
+				{
+					"id": "registered",
+					"name": "已注册组件"
+				}
+			]
+		},
 		"commands": [
 			{
 				"command": "wdy-vscode-plugin.createProject",
